@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  
+    <title>hortaliças</title>
+</head>
+<body>
+    
+    <header class="header"> 
+        <h1> Horta do Campo ao Prato</h1>
+        <div class="pagina1">
+           
+                <img src="figura7.jpg" id="horta">
+                    <nav>
+                <ul class="lista1">
+                    <li><a href="https://blog.brotacompany.com.br/as-10-frutas-mais-nutritivas-de-2022-brota-company/"> Vitaminas</a></li>
+                    <li> <a href=""> Plantio </a></li>
+                    <li> <a href=""> Vendas</a></li>
+                    
+            </ul>
+        </nav>
+        </div>
+</header>
+
+        <div class="beneficios">
+            <h2>Ter uma horta pode trazer inúmeros benefícios, tanto para a saúde quanto para o bem-estar e o meio ambiente.</h2> 
+            <p>Aqui estão alguns dos principais benefícios</p>
+            <div class="listas">
+            <ul class="lista1"> 
+                <li><a href="#" class="link-interativo" onclick="exibirMensagem1(event)">Saúde e Nutrição</a></li>
+                <li> <a href="#" class="link-interativo" onclick="exibirMensagem2(event)">Economia</a></li>
+                <li> <a href="#" class="link-interativo" onclick="exibirMensagem3(event)">Sustentabilidade</a></li>
+                <li> <a href="#" class="link-interativo" onclick="exibirMensagem4(event)">Beneficios Psicológicos e Físicos</a></li>
+                <li> <a href="#" class="link-interativo" onclick="exibirMensagem5(event)">Educação e Conexão Social</a></li>
+                <li> <a href="#" class="link-interativo" onclick="exibirMensagem6(event)">Bem-Estar e Satisfação Pessoal</a></li>
+                <li> <a href="#" class="link-interativo" onclick="exibirMensagem7(event)">Qualidade dos Alimentos</a></li>
+                 </ul>
+                 </div>
+           </div>
+        <div id="mensagem" class="mensagem">
+                      
+            <h3> Saúde e Nutrição</h3>
+            <p>Alimentos frescos e nutritivos: Comer vegetais e ervas colhidos na hora garante que você esteja consumindo alimentos ricos em nutrientes.
+                Sem agrotóxicos: Ao cultivar sua própria horta, você pode controlar o uso de pesticidas e optar por métodos de cultivo orgânicos.</p>
+    </div>
+    <script>
+        function exibirMensagem1(event) {
+            event.preventDefault(); // Evita o comportamento padrão do link
+            var mensagemDiv = document.getElementById('mensagem');
+            mensagemDiv.style.display = 'block'; // Exibe a mensagem
+        }
+    </script>
+
+
+
+            <div id="mensagem2" class="mensagem2">
+                      
+                <h3> Economia</h3>
+                <p>Redução de custos: Produzir seus próprios vegetais pode reduzir significativamente os gastos com alimentos.
+                Autos suficiência: Você pode reduzir a dependência de supermercados e ter acesso a alimentos frescos em caso de interrupções no fornecimento.</p>
+        </div>
+        <script>
+            function exibirMensagem2(event) {
+                event.preventDefault(); // Evita o comportamento padrão do link
+                var mensagemDiv = document.getElementById('mensagem2');
+                mensagemDiv.style.display = 'block'; // Exibe a mensagem
+            }
+        </script>
+    
+    
+<div class="container">
+    <div class="image">
+        <a href="https://www.google.com/""><img src="figura1.jpg" alt="Imagem 1"></a>
+    </div>
+    <div class="image">
+        <a href="URL_IMAGEM2"><img src="frigura2.jpg" alt="Imagem 2"></a>
+    </div>
+    <div class="image">
+        <a href="URL_IMAGEM3"><img src="figura3.jpg" alt="Imagem 3"></a>
+    </div>
+</div>
+<footer>
+    <img src="ima.png" alt="vitaminas" class="oo">
+    <p class="copyright">&copy; Hortaliças - 2024</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(215, 247, 221);
+}
+header{
+    background-color: rgb(103, 215, 159);
+}
+h1{
+    color: rgb(17, 25, 25);
+    text-align: center;
+   
+}
+h2{
+    text-align: center;
+    color: rgba(14, 13, 13, 0.973);
+   
+
+}
+.pagina1{
+    text-align: center;
+    overflow: auto;
+}
+#horta{
+    display: block; 
+    float: left;    /* Faz a imagem flutuar para a esquerda */
+    margin-right: 100px; /* Margem à direita para separar a imagem da lista */
+    width: 20%; /*tamanho da imagem*/
+}
+
+.header {
+    height: 200px; /* Altura desejada para o seu cabeçalho */
+    position: relative; /* Define a posição do elemento pai para permitir posicionamento absoluto do filho (a imagem) */
+}
+.header img {
+    width: auto; /* Garante que a largura da imagem seja ajustada automaticamente */
+    height: 100%; /* Define a altura da imagem como 100% em relação à altura do cabeçalho */
+    position: absolute; /* Posiciona a imagem de forma absoluta dentro do cabeçalho */
+    top: 0; /* Alinha a parte superior da imagem com a parte superior do cabeçalho */
+    left: 0; /* Alinha a parte esquerda da imagem com a parte esquerda do cabeçalho */
+    object-fit: cover; /* Ajusta o tamanho da imagem para cobrir completamente o espaço disponível */
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.lista1 li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+.beneficios{
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.listas{
+    margin-top: 10px;
+}
+.mensagem{
+    display: none;
+    
+}
+
+.mensagem2{
+    display: none;
+}
+
+.container{
+    display: flex;
+    margin-top: 10px;
+   
+
+}
+.image img{
+    display: flex;
+    justify-content: space-around; /* Espaço ao redor dos itens */
+    width: 80%; /* Defina a largura desejada para o container */
+    background-color: #fff;
+    padding: 20px; /* Espaço interno do container */
+    border: 2px solid #000; /* Estilo da borda do container */
+    border-radius: 10px; /* Bordas arredondadas */
+    height: 80%;
+    margin-left: 30px;
+    object-fit: cover; /* A imagem cobre todo o container mantendo a proporção */
+   
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 10px ;
+  }
+
+  footer {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 2px 0;
+  }
